@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5E5;
+    padding: 30px 105px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.containers{
+    width: 1170px;
+    margin: auto;
+}
+h3{
+    font-size: 24px;
+}
+/*======================== navbar=================== */
+.left-side{
+    width: 50%;
+}
+.right-side {
+    display: flex;
+    width: 36%;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+nav{
+    width: 1230px;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.04);
+    border-radius: 51px;
+}
+.logo{
+    margin-left: 15px;
+}
+.logo a{
+    font-size:35px;
+    color: #331F67;
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 3px;
+    padding: 0px 20px;
+    font-size: 16px;
+    color: #525252;
+}
+.button{
+    padding: 10px 30px;
+    color: white;
+    background: linear-gradient(125.09deg, #FFCA7B -10.97%, #FF2A1D 115.15%);
+    border-radius: 100px;
+}
+/*====================== hero section ==================================*/
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+.orenge-color{
+    font-weight: 500;
+    color: #FF9900;
+    line-height: 30px;
+}
+.half-width p{
+    font-size: 16px;
+    line-height: 27px;
+    color: #3E3E3E;
+    margin-bottom: 25px;
+}
+.half-width h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    line-height: 81px;
+    font-weight: 700;
+    color: #331F67;
+    margin-bottom: 20px;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 35px;
+}
+/*============================ about section start=============================== */
+.about-section{
+    height: 654px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.04);
+    margin-bottom: 50px;
+}
+.half-width h2{
+    font-size: 48px;
+    color: #331F67;
+}
+#about-image img{
+    width: 80%;
+}
+.social-media h4{
+    font-size: 19px;
+    color: #331F67;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.icon .fab{
+    font-size: 18px;
+}
+
+/*============================ experience section start================================ */
+.title {
+    width: 584px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    color: #331F67;
+}
+.card-container{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#second-card{
+    color: white;
+    background: linear-gradient(125.09deg, #FFCA7B -10.97%, #FF2A1D 115.15%);
+}
+.card{
+    width: 270px;
+    height: 270px;
+    background: #F8FCFF;
+    box-shadow: 0px 6px 45px rgba(0, 0, 0, 0.04);
+    text-align: center;
+    border-radius: 100%;
+    margin: 40px
+}
+.card .card-icon .fas{
+    font-size: 78px;
+    margin-top: 50px;
+
+}
